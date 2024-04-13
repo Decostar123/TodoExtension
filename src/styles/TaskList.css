@@ -1,0 +1,41 @@
+
+.individualTask{
+    background-color: #e3f7de;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 5px;
+    
+
+}
+.individualTask p{
+    padding:10px ; 
+    text-align: center;
+    text-align: center ;
+  
+   
+
+    height:fit-content;
+    font-size:20px;
+    width:80%;    
+    /* text-decoration: line-through; */
+   
+
+}
+.individualTask:hover{
+    transform: scale(1.01)  ;
+    background-color: #39f50b;
+
+}
+.individualTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 5%; */
+}
+.individualTask input{
+    cursor: pointer;
+}
+.individualTask svg{
+    cursor: pointer ;
+
+}
